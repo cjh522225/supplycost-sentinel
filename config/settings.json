@@ -1,0 +1,56 @@
+{
+  "dataDir": "data",
+  "theme": "light",
+  "schedule": {
+    "enabled": true,
+    "times": [
+      "10:00",
+      "17:00"
+    ],
+    "catchUp": true
+  },
+  "precision": {
+    "fx": 4,
+    "metal": 2
+  },
+  "validation": {
+    "fxChangePct": 5,
+    "metalChangePct": 15,
+    "fxCrossTolerance": 0.0001,
+    "metalCrossTolerance": 10,
+    "minMetal": 1000,
+    "maxMetal": 200000,
+    "minFx": 0.1,
+    "maxFx": 30,
+    "strictFxCrossSource": true,
+    "strictMetalCrossSource": false
+  },
+  "llm": {
+    "enabled": false,
+    "provider": "opencode-go",
+    "baseUrl": "https://opencode.ai/inference/go/openai/v1",
+    "model": "deepseek-v4.1-flash",
+    "hasApiKey": false,
+    "temperature": 0.2,
+    "maxTokens": 900
+  },
+  "realtime": {
+    "enabled": false,
+    "provider": "mock",
+    "baseUrl": "",
+    "hasApiKey": false,
+    "pollSeconds": 60,
+    "staleSeconds": 180,
+    "changePct": 0.3,
+    "windowMinutes": 5,
+    "cooldownMinutes": 15,
+    "depthEnabled": false,
+    "tradesEnabled": false,
+    "notify": true
+  },
+  "backfill": {
+    "startDate": "2015-01-01",
+    "concurrency": 4
+  },
+  "asianMetalMode": "manual"
+}

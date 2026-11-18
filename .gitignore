@@ -1,0 +1,14 @@
+node_modules/
+out/
+dist/
+data/
+.scratch/
+!data/.gitkeep
+config/llm.json
+config/settings.local.json
+.env
+.env.*
+*.log
+*.tmp
+build/icon.ico
+build/icon.png

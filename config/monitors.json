@@ -1,0 +1,88 @@
+[
+  {
+    "id": "fx-eur",
+    "type": "fx",
+    "source": "pboc",
+    "productId": "EUR",
+    "displayName": "欧元/人民币",
+    "unit": "CNY",
+    "precision": 4,
+    "enabled": true,
+    "color": "#0f766e",
+    "thresholds": {
+      "changePct": 1.5
+    }
+  },
+  {
+    "id": "fx-usd",
+    "type": "fx",
+    "source": "pboc",
+    "productId": "USD",
+    "displayName": "美元/人民币",
+    "unit": "CNY",
+    "precision": 4,
+    "enabled": true,
+    "color": "#2563eb",
+    "thresholds": {
+      "changePct": 1.5
+    }
+  },
+  {
+    "id": "smm-adc12",
+    "type": "metal",
+    "source": "smm",
+    "productId": "201102250397",
+    "displayName": "SMM ADC12",
+    "unit": "元/吨",
+    "precision": 2,
+    "enabled": true,
+    "color": "#b45309",
+    "thresholds": {
+      "changePct": 2.5
+    }
+  },
+  {
+    "id": "smm-az91d",
+    "type": "metal",
+    "source": "smm",
+    "productId": "202004280003",
+    "displayName": "SMM AZ91D",
+    "unit": "元/吨",
+    "precision": 2,
+    "enabled": true,
+    "color": "#7c3aed",
+    "thresholds": {
+      "changePct": 2.5
+    }
+  },
+  {
+    "id": "am-adc12",
+    "type": "metal",
+    "source": "asianmetal",
+    "productId": "am-adc12",
+    "displayName": "Asian Metal ADC12",
+    "unit": "元/吨",
+    "precision": 2,
+    "enabled": true,
+    "color": "#ea580c",
+    "manual": true,
+    "thresholds": {
+      "changePct": 2.5
+    }
+  },
+  {
+    "id": "am-az91d",
+    "type": "metal",
+    "source": "asianmetal",
+    "productId": "am-az91d",
+    "displayName": "Asian Metal AZ91D",
+    "unit": "元/吨",
+    "precision": 2,
+    "enabled": true,
+    "color": "#9333ea",
+    "manual": true,
+    "thresholds": {
+      "changePct": 2.5
+    }
+  }
+]
